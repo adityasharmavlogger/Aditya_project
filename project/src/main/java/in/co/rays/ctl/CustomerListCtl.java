@@ -47,11 +47,8 @@ public class CustomerListCtl extends HttpServlet {
 			String name = req.getParameter("fname");
 			bean.setName(name);
 		}
-		if (op.equals("add")) {
-
-			resp.sendRedirect("CustomerView.jsp");
-
-		}
+		
+		
 		if (op.equals("delete")) {
 
 			String[] ids = req.getParameterValues("ids");
@@ -60,7 +57,7 @@ public class CustomerListCtl extends HttpServlet {
 
 				try {
 					model.delete(Integer.parseInt(id));
-					resp.sendRedirect("CustomerListCtl.do");
+				
 
 				} catch (Exception e) {
 					e.printStackTrace();

@@ -19,9 +19,17 @@
 	<form action="CustomerListCtl.do" method="post">
 		<jsp:useBean id="bean" class="in.co.rays.bean.CustomerBean"
 			scope="request"></jsp:useBean>
-			
+			<h1>Customer List</h1>
 			<table>
 			<tr>
+			<a href="CustomerListCtl.do">Customerlist</a>
+			|
+			<a href="CustomerView.jsp">AddCustomer</a>
+			
+			<br>
+			<br>
+			
+			
 				<td><input type="text" name="fname"></td>
 				<td><input type="submit" name="operation" value="search"></td>
 				
@@ -68,8 +76,7 @@
 		<table style="width: 100%">
 			<tr>
 
-				<td align="center" style="width: 25%"><input type="submit"
-					name="operation" value="add"></td>
+				
 				<td align="center" style="width: 25%"><input type="submit"
 					name="operation" value="delete"></td>
 

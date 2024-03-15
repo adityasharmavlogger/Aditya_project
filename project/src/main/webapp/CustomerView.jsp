@@ -10,6 +10,8 @@
 <body>
 
 	<form action="CustomerCtl.do" method="post">
+	
+	<h1>Customer Registration</h1>
 		<%
 			String msg = (String) request.getAttribute("msg");
 			CustomerBean bean = (CustomerBean) request.getAttribute("bean");
@@ -21,6 +23,7 @@
 					if (msg != null) {
 				%>
 				<%=msg%>
+				
 				<%
 					}
 				%>
