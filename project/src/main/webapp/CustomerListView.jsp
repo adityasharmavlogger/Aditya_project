@@ -24,13 +24,14 @@
 			<tr>
 			<a href="CustomerListCtl.do">Customerlist</a>
 			|
-			<a href="CustomerView.jsp">AddCustomer</a>
+			<a href="CustomerView.jsp">AddCustomer</a> |
+			<a href="index.jsp">Welcome</a> 
 			
+			<br> 
 			<br>
-			<br>
 			
 			
-				<td><input type="text" name="fname"></td>
+				<td><input type="text" name="name"></td>
 				<td><input type="submit" name="operation" value="search"></td>
 				
 			</tr>

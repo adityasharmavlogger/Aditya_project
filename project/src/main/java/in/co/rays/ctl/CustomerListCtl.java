@@ -43,8 +43,8 @@ public class CustomerListCtl extends HttpServlet {
 		String op = req.getParameter("operation");
 
 		if (op.equals("search")) {
-			System.out.println("name>> " + req.getParameter("fname"));
-			String name = req.getParameter("fname");
+			System.out.println("name>> " + req.getParameter("name"));
+			String name = req.getParameter("name");
 			bean.setName(name);
 		}
 		

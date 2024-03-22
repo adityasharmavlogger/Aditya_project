@@ -44,6 +44,9 @@
 					value="<%=(bean != null) ? bean.getAccoountNumber() : ""%>"></td>
 			</tr>
 			<tr>
+			
+		
+		
 				<th>DOB :</th>
 				<td><input type="Date" name="dob"
 					value="<%=(bean != null) ? bean.getDob() : ""%>"></td>
